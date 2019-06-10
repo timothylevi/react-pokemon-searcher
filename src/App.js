@@ -1,10 +1,11 @@
 import React from 'react'
-import PokemonIndex from './components/PokemonIndex'
+import PokemonPage from './components/PokemonIndex'
 import './App.css'
 
+// Functional component: no state, no lifecycle
 const App = () => (
   <div className="App">
-    <PokemonIndex />
+    <PokemonPage />
   </div>
 )
 
